@@ -1,0 +1,2 @@
+# smart2
+stylesheet
