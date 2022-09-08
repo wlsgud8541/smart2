@@ -1,0 +1,62 @@
+@charset "UTF-8";
+#frm{
+	display: block;
+	margin: 0px auto;
+	width: 50%;
+	/* text-align: center; */
+}
+
+label, input {
+	/* display: block;
+	float: left; */
+	display: inline-block;
+}
+
+label {
+	width: 30%;
+	text-align: right;
+}
+
+input {
+	width: 50%;
+	text-align: left;
+	margin-left: 10px;
+}
+
+input[type= "text"] {
+	background-color: lightcyan;	
+}
+
+[type= "password"] {
+	background-color: oldlace;
+}
+
+#bfr{
+	/* clear: left; */
+	text-align: center;
+	margin-top: 30px;
+}
+
+div {
+	margin-bottom: 15px;
+}
+
+button {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+}
+
+button[type="button"]{
+	background-color: green;
+}
+/*[type="button"]{
+	background-color: green;	
+}*/
+
+button[type="submit"]{
+	background-color: orange;
+}
+/*[type="submit"]{
+	background-color: orange;	
+} */

@@ -1,0 +1,43 @@
+body > div{
+	width: 650px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.box{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+div:first-child > .box{
+	background-color: #e91e63;
+	margin-bottom: 10px;
+}
+
+div:last-child > .box{
+	background-color: #cddc39;
+}
+
+div:first-child > .box:nth-child(2n) {
+	border: 3px solid blue; 
+}
+
+div:last-child > .box:nth-child(3n):hover {
+	border-radius: 50%;
+}
+
+div > div:nth-child(2) > .box{
+	background-color: blue;
+	margin-bottom: 10px;
+}
+
+div > div:nth-child(3) > .box:nth-child(2n){
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+}
+
+div > div:nth-child(2) > .box:nth-child(2n-1) {
+	background-color: purple;
+}

@@ -1,0 +1,57 @@
+.content{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title{
+	background-color: #cddc39;
+}
+
+.fr{
+	font-size: 0pt;
+}
+
+.box, .box1{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid gray;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 12pt;
+}
+
+.box:first-child {
+	background-color: #ff5722;
+}
+
+.box:last-child {
+	background-color: #e91e63!important;
+}
+
+.box:nth-child(2n) {
+	width: 210px;
+}
+
+.box:nth-child(2n-1) {
+	width: 50px;
+}
+
+.box:nth-child(3n) {
+	background-color: #ffc107;
+}
+
+.fr > :first-child{
+	/* 클래스가 fr인 태그의 첫째 자식 태그를 선택 */
+	border: 5px dotted blue;
+}
+
+/* 형제 태그 중 4번째 태그들을 선택해서
+	테두리를 대쉬 타입으로 변경 */
+:nth-child(4){
+	border: 5px dashed lime;
+}
+
+
+

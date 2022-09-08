@@ -1,0 +1,36 @@
+.content{
+	width: 600px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+.square{
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	border: 1px solid gray;
+	margin-bottom: 30px;
+}
+
+.r1{
+	border-radius: 50%;
+	border-color: red yellow green blue;
+	border-width: 3px 11px 20px 6px;
+}
+
+.r2{
+	border-radius: 20px;
+	border-color: red yellow green blue;
+	border-width: 3px 11px 20px 6px;
+}
+
+.r3{
+	border-radius: 10px 30px;
+}
+
+.r4{
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 80px;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Selector2</title>
+<link type="text/css" rel="stylesheet" href="../css/day02/test02.css">
+</head>
+<body>
+<!-- 
+	라디오버튼과 체크박스 태그중 선택된 태그들만 크기를 키우기 
+	20px * 20px
+	
+	* : 곱하기
+	/ : 나누기
+	* : 더하기
+	- : 빼기
+	% : 나머지연산자
+-->
+	<div class="content">
+		<h1 class="title">Checked 상태 선택자</h1>
+		<div class="fr">
+			<label class="ft16 bold">성 별 : </label>
+			<div id="gfr">
+				<div>
+					<input type="radio" name="gen" value="M"> <span class="ft16 bold">남자</span>
+				</div>
+				<div>
+					<input type="radio" name="gen" value="W"> <span class="ft16 bold">여자</span>
+				</div>
+			</div>
+			<hr class="hr">
+			<label class="ft16 bold">수강과목 : </label>
+			<div class="input_div_all">
+				<div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="Java"> <span class="ft12 bold">Java</span>
+					</div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="Oracle"> <span class="ft12 bold">Oracle</span>
+					</div>
+				</div>
+				<div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="HTML"> <span class="ft12 bold">HTML</span> 
+					</div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="CSS"> <span class="ft12 bold">CSS</span>
+					</div>
+				</div>
+				<div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="JavaScript"> <span class="ft12 bold">JavaScript</span>
+					</div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="JQuery"> <span class="ft12 bold">JQuery</span>
+					</div>
+				</div>
+				<div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="JSP"> <span class="ft12 bold">JSP</span>
+					</div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="Spring"> <span class="ft12 bold">Spring</span>
+					</div>
+				</div>
+				<div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="Python"> <span class="ft12 bold">Python</span>
+					</div>
+					<div class="input_div">
+						<input type="checkbox" name="subj" value="R"> <span class="ft12 bold">R</span>
+					</div>
+				</div>
+			</div>
+			<hr class="hr">
+		</div>
+	</div>
+</body>
+</html>

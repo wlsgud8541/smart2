@@ -1,0 +1,14 @@
+.content{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.d1{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	padding: 50px;
+	background-color: #cddc39;
+	border: 10px solid red;
+}

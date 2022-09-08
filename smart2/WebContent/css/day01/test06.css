@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.content{
+	width: 50%;
+	margin: 0px auto;
+}
+
+/* 클래스 이름이 d1 인 div 태그를 선택하는 방법 ==> div.d1{} */
+.d1{
+	display: inline-block;	
+	width: 150px;
+	height: 150px;
+	background-color: deeppink;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+/* div 태그 중 클래스가 d1 인 태그에 마우스가 올려지는 태그들만 선택 */
+div.d1:hover{
+	width: 500px;
+	background-color: dodgerblue;
+}
+
+/* span.d1:hover{
+	width: 500px;
+	background-color: yellow;
+} */
+
+input{
+	width: 500px;
+	height: 30px;	
+}
+
+input:focus {
+	background-color: springgreen;
+}
+
+/* input[type= "text"]:focus{
+	background-color: springgreen;
+} */
+
+/* input[name= "id"]:focus{
+	background-color: springgreen;
+} */
+
+

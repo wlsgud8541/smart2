@@ -2,17 +2,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>CSS 3nd HTML</title>
+<title>stylesheet 우선순위</title>
+<link type="text/css" rel="stylesheet" href="../css/day01/test03.css">
 <style type="text/css">
- .title{
- 	padding: 10px;
- 	text-align: center;
- 	background-color: dodgerblue;
- 	color: white;
- }
+	p {
+		color: blue;
+	}
+	p {
+		color: yellow;
+	}
+	p {
+		color: red;
+	}
 </style>
 </head>
 <body>
-	<h1 class="title">CSS 세번째 파일</h1>
+	<p style="color: orange!important;">CSS는 정의하는 위치가 중요합니다.</p>
 </body>
 </html>

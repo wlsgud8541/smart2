@@ -1,0 +1,34 @@
+.content{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title{
+	padding: 15px;
+	color: white;
+	background-color: #e91e63;
+}
+
+.fr{
+	margin-top: 40px;
+}
+
+.box{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid gray;
+}
+
+.box:hover{
+	/* 클래스가 box인 태그 위에 커서가 올려진 동안 작동하는 css */
+	background-color: #cddc39;
+	cursor: pointer;
+}
+
+.box:active{
+	/* 클래스가 box인 태그를 누르고 있는 동안 발생 작동하는 css */
+	border-radius: 50%;
+	background-color: #ff5722;
+}
